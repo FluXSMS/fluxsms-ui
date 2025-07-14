@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FluxSMS UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📲 FluxSMS MiniApp</h1>
+  <p>Select your country & get OTP instantly.</p>
+  <select id="country">
+    <option value="+880">🇧🇩 Bangladesh</option>
+    <option value="+91">🇮🇳 India</option>
+  </select>
+  <button onclick="getNumber()">Get Number</button>
+  <button onclick="mute()">🔕 Mute</button>
+  <button onclick="unmute()">🔔 Unmute</button>
+  <div id="output">Your number: (waiting...)</div>
+  <script src="app.js"></script>
+</body>
+</html>
